@@ -1,7 +1,6 @@
 #کتابخانه ها
 from tkinter import *
-import PyPDF2
-import pyttsx3
+import PyPDF2,pyttsx3
 from tkinter.filedialog import askopenfilename
 
 #ساخت پنجره و نامگذاری

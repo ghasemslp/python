@@ -14,7 +14,7 @@ window.columnconfigure(1, minsize=600, weight=1)
 
 #ساخت الگوریتم
 def open_file():
-    #انتخواب فایل
+    #انتخاب فایل
     file = askopenfilename(title="Select file", filetypes=(("PDF Files", "*.pdf"), ("All Files", "*.*")))
     #پیدا کردن فایل 
     if file:
